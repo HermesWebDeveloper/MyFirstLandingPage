@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+}
+
+.logo {
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 67px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+a.item-nav {
+    text-decoration: none;
+    width: auto;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px 20px;
+}
+
+a.item-nav:hover {
+    background-color: #FF4800;
+    color: white;
+}
+
+.font1 {
+    font-family: sans-serif;
+    color: rgb(50, 50, 50);
+}
+
+a.btn-quote {
+    text-decoration: none;
+    font-weight: initial;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+    box-sizing: border-box; 
+    text-align: center;
+    display: inline-block;
+    background-color: #FF4800;
+    padding: 10px 20px;
+    margin: 10px 30px;
+}
+
+a.btn-quote:hover {
+    background-color: white;
+    border: 0.5px solid #FF4800;
+    color: rgb(50, 50, 50);
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/cargueiro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: 10%;
+    width: auto;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    color: #FF4800;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.hero-item {
+    margin: 10px;
+}
+
+/* .hero-title-safe {
+    margin-bottom: 0px;
+}
+
+.hero-title-logistics {
+    margin-top: 0px;
+} */
+
+.hero-form-search {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.hero-form-item-search {
+    font-family: sans-serif;
+    width: 250px;
+    padding: 15px;
+    margin-left: 0px;
+}
+
+.hero-form-item-btn {
+    font-family: sans-serif;
+    color: white;
+    background-color: #FF4800;
+    border: none;
+}
+
+.hero-form-item-btn:hover {
+    cursor: pointer;
+}
