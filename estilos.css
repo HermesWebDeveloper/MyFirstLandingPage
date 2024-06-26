@@ -325,3 +325,7 @@ h2 {
 .div2-btn:hover {
     cursor: pointer;
 }
+
+.team-img {
+    width: 100px;
+}
