@@ -509,3 +509,73 @@ h2 {
     cursor: pointer;
     color: #8A8A8A;
 }
+
+.footer {
+    background-color: #1F1F2E;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+.footer-part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-part1-a {
+    width: 300px;
+}
+
+.footer-part1-b {
+    width: 300px;
+}
+
+.footer-part1-c {
+    width: 500px;
+}
+
+.color-orange {
+    color: #FF4800;
+}
+
+.color-white {
+    color: #F2F2F4;
+}
+
+.text-footer {
+    line-height: 23px;
+}
+
+.f-size-1 {
+    font-size: 14px;
+}
+
+.submit-email {
+    padding: 10px;
+}
+
+.form-footer {
+    gap: 0px;
+}
+
+.margin-1 {
+    margin: 2px;
+}
+
+.f-size2 {
+    font-size: 12px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.margin-2 {
+    margin: 5px;
+}
