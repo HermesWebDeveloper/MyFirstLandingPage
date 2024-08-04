@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     height: 100%;
+    font-family: sans-serif;
 }
 
 .logo {
@@ -512,7 +513,7 @@ h2 {
 
 .footer {
     background-color: #1F1F2E;
-    padding: 25px;
+    padding: 30px;
     font-family: sans-serif;
 }
 
@@ -578,4 +579,35 @@ a:hover {
 
 .margin-2 {
     margin: 5px;
+}
+
+.icon1 {
+    margin: 2px;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.circle {
+    border: 0.25px solid white; /* Largura e cor da borda */
+    border-radius: 50%; /* Transformar a borda em um círculo */
+    padding: 5px; /* Espaço entre a borda e a imagem */
+    margin: 2px;
+}
+
+.circle:hover {
+    cursor: pointer;
+}
+
+.redes-sociais {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.with-arrow::before {
+    content: ">"; /* Adiciona a seta antes do parágrafo */
+    margin-right: 8px; /* Espaço entre a seta e o texto do parágrafo */
+    color: #F2F2F4; /* Cor da seta */
+    font-weight: bold; /* Peso da seta */
 }
