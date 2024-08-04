@@ -22,7 +22,7 @@ Para visualizar o projeto localmente, siga os seguintes passos:
 
 1. Clone este repositório:
 
-<code>git clone https://github.com/seu-usuario/my-first-landing-page.git</code>
+<code>git clone https://github.com/HermesWebDeveloper/MyFirstLandingPage.git</code>
 
 2. Navegue até o diretório do projeto:
 
